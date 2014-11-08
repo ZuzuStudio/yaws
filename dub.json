@@ -1,0 +1,20 @@
+{
+	"name": "yaws",
+	"description": "webserver",
+	"authors": ["HaraldZealot", "z4p"],
+	"homepage": "https://github.com/ZuzuStudio/yaws",
+	"copyright": "Copyright (c) 2014 Aliaksei Stankevich",
+	"configurations":[
+		{
+			"name": "library",
+			"targetType": "library",
+			"targetPath": "build/lib"
+		},
+		{
+			"name": "standalone",
+			"targetType": "executable",
+			"targetPath": "build/app",
+			"workingDirectory": "build/app"
+		}
+	]
+}
